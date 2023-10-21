@@ -1,0 +1,172 @@
+.card:where(.astro-DOHJNAO5) {
+    display: flex;
+    max-width: 700px;
+    padding: 0 24px;
+    margin: 0 auto 20px;
+    transform: translate(-40px)
+}
+
+.card-title:where(.astro-DOHJNAO5) {
+    width: 80px;
+    text-align: right;
+    padding-top: 2px;
+    padding-right: 30px
+}
+
+.card-title:where(.astro-DOHJNAO5)>span:where(.astro-DOHJNAO5) {
+    font-size: 14px;
+    color: #09193080
+}
+
+.card-content:where(.astro-DOHJNAO5) {
+    width: calc(100% - 80px)
+}
+
+.card-content>p:first-of-type {
+    margin-top: 0
+}
+
+.card-content>p {
+    margin: 1em 0;
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: #1d1e21
+}
+
+.card-content>p>a {
+    color: inherit;
+    background-color: #fff6c0
+}
+
+@media screen and (max-width: 900px) {
+    .card:where(.astro-DOHJNAO5) {
+        max-width:620px;
+        margin: 0 auto 30px;
+        transform: none;
+        display: block
+    }
+
+    .card-title:where(.astro-DOHJNAO5) {
+        padding: 0;
+        text-align: left;
+        display: block
+    }
+
+    .card-title:where(.astro-DOHJNAO5)>span:where(.astro-DOHJNAO5) {
+        font-size: 15px;
+        display: block;
+        margin: 0 0 .5em
+    }
+
+    .card-content:where(.astro-DOHJNAO5) {
+        width: 100%
+    }
+}
+
+ul:where(.astro-GT4YJ4LJ)>li:where(.astro-GT4YJ4LJ) {
+    margin: 3px 0 1em
+}
+
+ul:where(.astro-GT4YJ4LJ)>li:where(.astro-GT4YJ4LJ)>a:where(.astro-GT4YJ4LJ) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 50ms ease
+}
+
+ul:where(.astro-GT4YJ4LJ)>li:where(.astro-GT4YJ4LJ)>a:where(.astro-GT4YJ4LJ)>span:where(.astro-GT4YJ4LJ):first-of-type {
+    color: #4c525c
+}
+
+ul:where(.astro-GT4YJ4LJ)>li:where(.astro-GT4YJ4LJ)>a:where(.astro-GT4YJ4LJ)>span:where(.astro-GT4YJ4LJ):last-of-type {
+    color: #09193080;
+    font-size: 14px
+}
+
+ul:where(.astro-GT4YJ4LJ)>li:where(.astro-GT4YJ4LJ)>a:where(.astro-GT4YJ4LJ):hover {
+    opacity: .8
+}
+
+@media screen and (max-width: 900px) {
+    ul:where(.astro-GT4YJ4LJ)>li:where(.astro-GT4YJ4LJ)>a:where(.astro-GT4YJ4LJ) span:where(.astro-GT4YJ4LJ):first-of-type {
+        line-height:1.5rem
+    }
+
+    ul:where(.astro-GT4YJ4LJ)>li:where(.astro-GT4YJ4LJ)>a:where(.astro-GT4YJ4LJ) span:where(.astro-GT4YJ4LJ):last-of-type {
+        width: 150px;
+        text-align: right
+    }
+}
+
+.header:where(.astro-3EF6KSR2) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 620px;
+    padding: 0 24px;
+    margin: 0 auto 80px
+}
+
+.header:where(.astro-3EF6KSR2)>a:where(.astro-3EF6KSR2) {
+    display: flex
+}
+
+.header:where(.astro-3EF6KSR2)>ul:where(.astro-3EF6KSR2)>li:where(.astro-3EF6KSR2) {
+    margin: 0 5px;
+    display: inline-block
+}
+
+.header:where(.astro-3EF6KSR2)>ul:where(.astro-3EF6KSR2)>li:where(.astro-3EF6KSR2):last-of-type {
+    margin-right: 0
+}
+
+.header:where(.astro-3EF6KSR2)>ul:where(.astro-3EF6KSR2)>li:where(.astro-3EF6KSR2)>a:where(.astro-3EF6KSR2) {
+    color: #4c525c;
+    border-bottom: 1px solid #4c525c
+}
+
+.header:where(.astro-3EF6KSR2)>ul:where(.astro-3EF6KSR2)>li:where(.astro-3EF6KSR2)>a:where(.astro-3EF6KSR2):hover {
+    color: #000;
+    border-bottom-color: #000;
+    /* text-decoration: none; */
+}
+
+
+
+* {
+    box-sizing: border-box
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #fff6c0;
+    font-family: system-ui,sans-serif;
+    font-feature-settings: "ss01";
+    text-rendering: optimizeLegibility
+}
+
+body {
+    margin: 0;
+    padding-bottom: 50px;
+    background-color: #fff6c0
+}
+
+a {
+    text-decoration: underline;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none
+}
+.mid-bottom-text {
+    position: fixed;
+    bottom: 5px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+  }
