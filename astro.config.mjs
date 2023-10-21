@@ -4,5 +4,4 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   site: 'https://0xjchen.github.io',
-//   base: '/my-repo',
 })
