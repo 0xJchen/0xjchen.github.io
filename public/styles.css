@@ -122,7 +122,8 @@ ul:where(.astro-GT4YJ4LJ)>li:where(.astro-GT4YJ4LJ)>a:where(.astro-GT4YJ4LJ):hov
 
 .header:where(.astro-3EF6KSR2)>ul:where(.astro-3EF6KSR2)>li:where(.astro-3EF6KSR2)>a:where(.astro-3EF6KSR2) {
     color: #4c525c;
-    border-bottom: 1px solid #4c525c
+    border-bottom: 1px solid #4c525c;
+    text-decoration: none;
 }
 
 .header:where(.astro-3EF6KSR2)>ul:where(.astro-3EF6KSR2)>li:where(.astro-3EF6KSR2)>a:where(.astro-3EF6KSR2):hover {
